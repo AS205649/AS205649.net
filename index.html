@@ -8,26 +8,164 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <center>
-        <strong>
-            AS200242: Hazelnet
-        </strong>
-        <p class="l">
-            Personal network of Hazel,
-            an IPv6 enthusiast from Berlin.
+<main>
+    <header>
+        <div class="l">
+            <p>
+                aut-num:
+                <a href="https://apps.db.ripe.net/db-web-ui/lookup?source=ripe&key=AS200242&type=aut-num" target="_blank" rel="noreferrer">as200242</a>
+            </p>
+            <p>
+                as-set:
+                <a href="https://apps.db.ripe.net/db-web-ui/lookup?source=ripe&key=as200242:as-hazel&type=as-set" target="_blank" rel="noreferrer">as200242:as-hazel</a>
+            </p>
+            <p>
+                links:
+                <a href="https://peeringdb.com/asn/200242" target="_blank" rel="noreferrer">PeeringDB</a>,
+                <a href="https://bgp.tools/as/200242" target="_blank" rel="noreferrer">bgp.tools</a>
+            </p>
+        </div>
+        <div>
+            <p class="r">
+                Hazel Reimer
+            </p>
+            <p class="r">
+                <a href="mailto:h@as200242.net">h@as200242.net</a>
+            </p>
+        </div>
+    </header>
+    <h1>
+        Hazelnet
+    </h1>
+    <h2 id="about">
+        About
+    </h2>
+    <section>
+        <p>
+            This is a small network operated by Hazel. I'm a software/devops engineer and IPv6 enthusiast based in Berlin, Germany. Although, I spend a lot of time abroad in Europe.
+            Most traffic will be for personal projects, and in the future hopefully my homelab.
         </p>
-        <p class="l">
-            Feel free to contact me at the below emails.
+    </section>
+    <h2 id="contact">
+        Contact
+    </h2>
+    <section>
+        <p>
+            Feel free to reach out via <a href="mailto:h@as200242.net">email</a>, <a href="https://elk.zone/@hazel@chaos.social" target="_blank" rel="noreferrer">fedi</a>, or <a href="https://discord.gg/skji">Discord</a>.
             I'm open to advice and new opportunities, or just to chat about networking.
         </p>
-        <p class="l">
-            In general, this network is very open to <a href="/peering">peering</a>.
+        <p>
+            In case things went horribly wrong, please send an email directly to <a href="mailto:noc@as200242.net">noc@as200242.net</a>. This address is monitored at least 12x7.
         </p>
-        <p class="r">
-                h@as200242.net<br>
-              noc@as200242.net<br>
+    </section>
+    <h2 id="peering">
+        Peering
+    </h2>
+    <section>
+        <p>
+            In general I maintain an open peering policy and peer at physical IXPs.
+            Check out
+            <a href="https://peerwith.me/200242" target="_blank" rel="noreferrer">PeeringDB</a>
+            for detailed and up-to-date information.
         </p>
-    </center>
+        <p>
+            You will need to:
+        </p>
+        <ul>
+            <li>Have a public ASN and a matching PeeringDB entry.</li>
+            <li>Have a BGP-capable router connected to the public VLAN of a physical IXP.</li>
+            <li>Implement reasonable security practices when it comes to routes. MANRS is preferred, RPKI is the absolute minimum.</li>
+            <li>Be reachable within a reasonable timeframe in case of issues. Please at least provide a dedicated NOC email.</li>
+        </ul>
+        <p>
+            If that sounds good to you, please send an email to <a href="mailto:peering@as200242.net">peering@as200242.net</a>.
+        </p>
+    </section>
+</main>
+<style>
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: monospace;
+	font-size: 11pt;
+}
+
+main {
+	margin: auto;
+	max-width: 72ch;
+	padding: 3ch;
+	text-align: left;
+}
+
+header {
+	display: flex;
+	flex-direction: row;
+	column-gap: 2ch;
+	margin-bottom: 1em;
+}
+
+header .l {
+	flex-grow: 1;
+}
+
+h1 {
+	text-align: center;
+}
+
+h1, h2 {
+	font-size: 1em;
+}
+
+h2 {
+	font-weight: normal;
+}
+
+header p {
+	margin: 0;
+}
+
+a {
+	text-decoration: underline;
+}
+
+a, a:visited {
+	color: #00e;
+	white-space: nowrap;
+}
+
+.l {
+	text-align: left;	
+}
+
+.r {
+	text-align: right;
+}
+
+section {
+	margin-left: 3ch;
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+ul li {
+	margin-bottom: 1em;
+	position: relative;
+	margin-left: 3ch;
+}
+
+ul li::before {
+	position: absolute;
+	left: -3ch;
+	content: "-";
+}
+</style>
 </body>
 </html>
 
