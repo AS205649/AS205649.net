@@ -1,0 +1,77 @@
+# inet6num: 2a05:dfc2::/32
+# netname:  hazel-net
+# desc:     this is our production network
+# remarks:  ---
+# remarks:  this will mostly be used for CDN 
+# remarks:  and other similar services that benefit from anycast
+# remarks:  ---
+
+# fallback
+2a05:dfc2::/32,DE,DE-BE,Berlin
+
+# anycast
+2a05:dfc2:0000::/36,DE,DE-BE,Berlin
+
+# eu
+2a05:dfc2:1000::/36,DE,,
+# eu > central
+2a05:dfc2:1100::/40,DE,,
+# eu > central > germany
+2a05:dfc2:1110::/44,DE,,
+# eu > central > germany > frankfurt 1
+2a05:dfc2:1111::/48,DE,DE-HE,Frankfurt
+# eu > central > germany > frankfurt 2
+2a05:dfc2:1112::/48,DE,DE-HE,Frankfurt
+# eu > west
+2a05:dfc2:1200::/40,DE,,
+# eu > west > netherlands
+2a05:dfc2:1210::/44,NL,,
+# eu > west > netherlands > amsterdam 1
+2a05:dfc2:1211::/48,NL,NL-NH,Amsterdam
+
+# na
+2a05:dfc2:2000::/36,US,,
+# na > us-east
+2a05:dfc2:2100::/40,US,,
+# na > us-east > new york
+2a05:dfc2:2110::/44,US,US-NY,
+# na > us-east > new york > nyc 1
+2a05:dfc2:2111::/48,US,US-NY,New York City
+# na > us-west
+2a05:dfc2:2200::/40,US,,
+# na > us-west > california
+2a05:dfc2:2210::/44,US,US-CA,
+# na > us-west > california > fremont 1
+2a05:dfc2:2211::/48,US,US-CA,Fremont
+# na > canada
+2a05:dfc2:2300::/40,CA,,
+# na > canada > ontario
+2a05:dfc2:2310::/44,CA,CA-ON,
+# na > canada > ontario > toronto 1
+2a05:dfc2:2311::/48,CA,CA-ON,Toronto
+
+# inet6num: 2a05:dfc3::/32
+# netname:  hazel-labs
+# desc:     this is our labs network
+# remarks:  ---
+# remarks:  this will mostly be used for experimenting
+# remarks:  or for non-production services
+# remarks:  it might also be used for things not directly offered by AS200242 Ltd.
+# remarks:  ---
+
+# fallback
+2a05:dfc3::/32,DE,DE-BE,Berlin
+
+# netname: krista / foxgirl-net
+2a05:dfc3:0069::/48,GB,GB-ENG,London
+2a05:dfc3:6969::/48,GB,GB-ENG,London
+
+# netname: emily / sappho-net
+2a05:dfc3:b00b::/48,HU,,
+
+# netname: lucy / shinobu
+# geofeed: https://beako.net/netinfo/geofeed.csv
+2a05:dfc3:dead::/48,CA,CA-ON,Toronto
+2a05:dfc3:c0ff::/48,CA,CA-ON,Toronto
+
+# netname: eva / oak8
