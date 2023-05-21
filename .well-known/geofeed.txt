@@ -71,7 +71,10 @@
 
 # netname: lucy / shinobu
 # geofeed: https://beako.net/netinfo/geofeed.csv
-2a05:dfc3:dead::/48,CA,CA-ON,Toronto
-2a05:dfc3:c0ff::/48,CA,CA-ON,Toronto
+2a05:dfc3:c0ff::/48,AU,AU-VIC,Melbourne
+2a05:dfc3:dead::/48,AU,AU-VIC,Melbourne
 
 # netname: eva / oak8
+
+# netname allie / catgirl-cafe
+2a05:dfc3:cafe::/48,GB,GB-ENG,London
