@@ -37,6 +37,8 @@
 2a05:dfc2:2110::/44,US,US-NY,
 # na > us-east > new york > nyc 1
 2a05:dfc2:2111::/48,US,US-NY,New York City
+# na > us-east > new york > nyc 3
+2a05:dfc2:2113::/48,US,US-NY,New York City
 # na > us-west
 2a05:dfc2:2200::/40,US,,
 # na > us-west > california
@@ -78,3 +80,6 @@
 
 # netname allie / catgirl-cafe
 2a05:dfc3:cafe::/48,GB,GB-ENG,London
+
+# netname dougly / gaytor-net
+2a05:dfc3:e621::/48,NL,NL-NH,Amsterdam
