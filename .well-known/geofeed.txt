@@ -51,6 +51,12 @@
 2a05:dfc2:2310::/44,CA,CA-ON,
 # na > canada > ontario > toronto 1
 2a05:dfc2:2311::/48,CA,CA-ON,Toronto
+# na > us-central
+2a05:dfc2:2400::/40,US,,
+# na > us-central > missouri
+2a05:dfc2:2410::/44,US,US-MO,
+# na > us-central > missouri > kansas city 1
+2a05:dfc2:2411::/48,US,US-MO,Kansas City
 
 # inet6num: 2a05:dfc3::/32
 # netname:  hazel-labs
