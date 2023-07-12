@@ -7,56 +7,56 @@
 # remarks:  ---
 
 # fallback
-2a05:dfc2::/32,DE,DE-BE,Berlin
+2a05:dfc2::/32,DE,DE-BE,Berlin,
 
 # anycast
-2a05:dfc2:0000::/36,DE,DE-BE,Berlin
+2a05:dfc2:0000::/36,DE,DE-BE,Berlin,
 
 # eu
-2a05:dfc2:1000::/36,DE,,
+2a05:dfc2:1000::/36,DE,,,
 # eu > central
-2a05:dfc2:1100::/40,DE,,
+2a05:dfc2:1100::/40,DE,,,
 # eu > central > germany
-2a05:dfc2:1110::/44,DE,,
+2a05:dfc2:1110::/44,DE,,,
 # eu > central > germany > frankfurt 1
-2a05:dfc2:1111::/48,DE,DE-HE,Frankfurt
+2a05:dfc2:1111::/48,DE,DE-HE,Frankfurt,
 # eu > central > germany > frankfurt 2
-2a05:dfc2:1112::/48,DE,DE-HE,Frankfurt
+2a05:dfc2:1112::/48,DE,DE-HE,Frankfurt,
 # eu > west
-2a05:dfc2:1200::/40,DE,,
+2a05:dfc2:1200::/40,DE,,,
 # eu > west > netherlands
-2a05:dfc2:1210::/44,NL,,
+2a05:dfc2:1210::/44,NL,,,
 # eu > west > netherlands > amsterdam 1
-2a05:dfc2:1211::/48,NL,NL-NH,Amsterdam
+2a05:dfc2:1211::/48,NL,NL-NH,Amsterdam,
 
 # na
-2a05:dfc2:2000::/36,US,,
+2a05:dfc2:2000::/36,US,,,
 # na > us-east
-2a05:dfc2:2100::/40,US,,
+2a05:dfc2:2100::/40,US,,,
 # na > us-east > new york
-2a05:dfc2:2110::/44,US,US-NY,
+2a05:dfc2:2110::/44,US,US-NY,,
 # na > us-east > new york > nyc 1
-2a05:dfc2:2111::/48,US,US-NY,New York City
+2a05:dfc2:2111::/48,US,US-NY,New York City,
 # na > us-east > new york > nyc 3
-2a05:dfc2:2113::/48,US,US-NY,New York City
+2a05:dfc2:2113::/48,US,US-NY,New York City,
 # na > us-west
-2a05:dfc2:2200::/40,US,,
+2a05:dfc2:2200::/40,US,,,
 # na > us-west > california
-2a05:dfc2:2210::/44,US,US-CA,
+2a05:dfc2:2210::/44,US,US-CA,,
 # na > us-west > california > fremont 1
-2a05:dfc2:2211::/48,US,US-CA,Fremont
+2a05:dfc2:2211::/48,US,US-CA,Fremont,
 # na > canada
-2a05:dfc2:2300::/40,CA,,
+2a05:dfc2:2300::/40,CA,,,
 # na > canada > ontario
-2a05:dfc2:2310::/44,CA,CA-ON,
+2a05:dfc2:2310::/44,CA,CA-ON,,
 # na > canada > ontario > toronto 1
-2a05:dfc2:2311::/48,CA,CA-ON,Toronto
+2a05:dfc2:2311::/48,CA,CA-ON,Toronto,
 # na > us-central
-2a05:dfc2:2400::/40,US,,
+2a05:dfc2:2400::/40,US,,,
 # na > us-central > missouri
-2a05:dfc2:2410::/44,US,US-MO,
+2a05:dfc2:2410::/44,US,US-MO,,
 # na > us-central > missouri > kansas city 1
-2a05:dfc2:2411::/48,US,US-MO,Kansas City
+2a05:dfc2:2411::/48,US,US-MO,Kansas City,
 
 # inet6num: 2a05:dfc3::/32
 # netname:  hazel-labs
@@ -68,24 +68,24 @@
 # remarks:  ---
 
 # fallback
-2a05:dfc3::/32,DE,DE-BE,Berlin
+2a05:dfc3::/32,DE,DE-BE,Berlin,
 
 # netname: krista / foxgirl-net
-2a05:dfc3:0069::/48,GB,GB-ENG,London
-2a05:dfc3:6969::/48,GB,GB-ENG,London
+2a05:dfc3:0069::/48,GB,GB-ENG,London,
+2a05:dfc3:6969::/48,GB,GB-ENG,London,
 
 # netname: emily / sappho-net
-2a05:dfc3:b00b::/48,HU,,
+2a05:dfc3:b00b::/48,HU,,,
 
 # netname: lucy / shinobu
 # geofeed: https://beako.net/netinfo/geofeed.csv
-2a05:dfc3:c0ff::/48,AU,AU-VIC,Melbourne
-2a05:dfc3:dead::/48,AU,AU-VIC,Melbourne
+2a05:dfc3:c0ff::/48,AU,AU-VIC,Melbourne,
+2a05:dfc3:dead::/48,AU,AU-VIC,Melbourne,
 
 # netname: eva / oak8
 
 # netname allie / catgirl-cafe
-2a05:dfc3:cafe::/48,GB,GB-ENG,London
+2a05:dfc3:cafe::/48,GB,GB-ENG,London,
 
 # netname dougly / gaytor-net
-2a05:dfc3:e621::/48,NL,NL-NH,Amsterdam
+2a05:dfc3:e621::/48,NL,NL-NH,Amsterdam,
