@@ -28,6 +28,15 @@
 2a05:dfc2:1210::/44,NL,,,
 # eu > west > netherlands > amsterdam 1
 2a05:dfc2:1211::/48,NL,NL-NH,Amsterdam,
+# eu > north
+2a05:dfc2:1300::/40,DE,,,
+# eu > north > norway
+2a05:dfc2:1310::/44,NO,,,
+# eu > north > norway > oslo 1
+2a05:dfc2:1311::/48,NO,NO-03,Oslo,
+
+# eu > central > germany > frankfurt 2 > proxy
+2a05:dfc2:1112:bee::/64,DE,DE-BB,Koenigs Wusterhausen,15711
 
 # na
 2a05:dfc2:2000::/36,US,,,
@@ -67,7 +76,7 @@
 # remarks:  it might also be used for things not directly offered by AS200242 Ltd.
 # remarks:  ---
 
-# fallback
+# remarks: fallback
 2a05:dfc3::/32,DE,DE-BE,Berlin,
 
 # netname: krista / foxgirl-net
@@ -84,8 +93,8 @@
 
 # netname: eva / oak8
 
-# netname allie / catgirl-cafe
+# netname: allie / catgirl-cafe
 2a05:dfc3:cafe::/48,GB,GB-ENG,London,
 
-# netname dougly / gaytor-net
+# netname: dougly / gaytor-net
 2a05:dfc3:e621::/48,NL,NL-NH,Amsterdam,
