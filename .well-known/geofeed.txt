@@ -98,3 +98,6 @@
 
 # netname: dougly / gaytor-net
 2a05:dfc3:e621::/48,NL,NL-NH,Amsterdam,
+
+# netname: megu / krisdev-net
+2a05:dfc3:8000::/40,GB,,,
