@@ -31,6 +31,16 @@ header > p {
     font-style: italic;
 }
 
+p {
+	margin-top: .5em;
+	margin-bottom: .5em;
+}
+
+h2 {
+	margin-top: 1.4em;
+	margin-bottom: .9em;
+}
+
 header {
     margin-bottom: 2em;
     text-align: center;
@@ -72,14 +82,18 @@ section {
 	margin-left: 3ch;
 }
 
-ul {
+ul, ol {
 	list-style: none;
 	margin: 0;
 	padding: 0;
 }
 
+ol {
+	margin-bottom: .4em;
+}
+
 ul li {
-	margin-bottom: 1em;
+	margin-bottom: .5em;
 	position: relative;
 	margin-left: 3ch;
 }
@@ -88,4 +102,10 @@ ul li::before {
 	position: absolute;
 	left: -3ch;
 	content: "-";
+}
+
+ol li {
+	margin-bottom: .1em;
+	position: relative;
+	margin-left: 3ch;
 }
