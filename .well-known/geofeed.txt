@@ -1,7 +1,27 @@
-2a07:54c0:2480::/41,DE,,,
-2a07:54c0:2438::/45,NL,,,
-2a07:54c0:1420::/43,CA,,,
-2a07:54c0:2268::/45,NO,,,
-2a07:54c0:1480::/41,US,,,
+# prefix,country_code,region_code,city,postal
 
-2a07:54c0:cafe::/48,DE,,,
+2a07:54c0:1420::/43,CA,,,
+2a07:54c0:1428::/48,CA,CA-ON,Toronto,
+
+2a07:54c0:1480::/41,US,,,
+2a07:54c0:1491::/48,US,US-MO,Kansas City,
+2a07:54c0:14a1::/48,US,US-NJ,Piscataway,
+
+2a07:54c0:2268::/45,NO,,,
+2a07:54c0:2269::/48,NO,NO-03,Oslo,
+
+2a07:54c0:2438::/45,NL,,,
+
+2a07:54c0:2480::/41,DE,,,
+2a07:54c0:24a0::/44,DE,DE-BE,Berlin,
+2a07:54c0:24a1::/48,DE,DE-BE,Berlin,13187
+2a07:54c0:24c0::/44,DE,DE-HE,Frankfurt,
+
+2a07:54c0:7000::/48,DE,DE-BE,Berlin,13187
+2a07:54c0:7001::/48,DE,DE-HE,Frankfurt,
+2a07:54c0:7002::/48,NO,NO-03,Oslo,
+2a07:54c0:7003::/48,US,US-MO,Kansas City,
+2a07:54c0:7004::/48,US,US-NJ,Piscataway,
+2a07:54c0:7005::/48,CA,CA-ON,Toronto,
+
+2a07:54c0:cafe::/48,GB,GB-TWH,London,E14 3SJ
