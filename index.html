@@ -1,52 +1,262 @@
 <!DOCTYPE html>
-<html lang="en">
+<html
+  lang="en"
+  prefix="og: https://ogp.me/ns#">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="data:,">
-    <title>nettwork</title>
-    <meta name="description" content="ipv6-only network for personal, non-profit use">
-    <style>
-        html {
-            color-scheme: light dark;
-        }
-    </style>
-    <link href="style.css" rel="stylesheet" />
+  <meta
+    charset="UTF-8">
+  <meta
+    http-equiv="X-UA-Compatible"
+    content="IE=edge">
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0">
+
+  <link
+    rel="icon"
+    href="data:,">
+  <meta
+    name="theme-color"
+    content="#cba6f7">
+
+  <title>borderline-transit</title>
+  <meta
+    name="description"
+    content="ipv6-only network for personal, non-profit use">
+
+  <meta
+    property="og:site_name"
+    content="de.borderline">
+
+  <style>
+    html {
+      color-scheme: light dark;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      html {
+        background-color: #111213;
+      }
+    }
+  </style>
 </head>
 <body>
+<header>
+  <nav>
+    <a href="//ripen.cc/as200242:as-cone" target="_blank">as200242:as-cone</a>
+    <a href="//ripen.cc/2a07:54c0::/32" target="_blank">2a07:54c0::/32</a>
+  </nav>
+</header>
 <main>
-    <header>
-        <nav>
-            <div class="l">
-                <p><a href="/200242">as200242</a></p>
-            </div>
-            <div class="r">
-                <p><a href="//rir.link/w/haz" target="_blank">admin</a></p>
-                <p><a href="//rir.link/n/nw" target="_blank">tech</a></p>
-            </div>
-        </nav>
-        <h1>the nettwork</h1>
-    </header>
-    <h2 id="vision">vision</h2>
-    <section>
-        <p>
-            what if we were just excellent to each other?
-        </p>
-        <p>
-            ipv6 is the future, decentralization makes the internet stronger, and we should all be able to connect to each other without having to worry about who's making money off of it
-        </p>
-    </section>
+  <hgroup>
+    <h1>as200242</h1>
+    <p>borderline-transit</p>
+  </hgroup>
+  <section>
+    <h2 id="about">about</h2>
+    <p>
+      ipv6-only network for 
+      <a href="//ripen.cc/haz" target="_blank">personal</a>, non-profit use
+    </p>
+  </section>
+  <section>
     <h2 id="contact">contact</h2>
-    <section>
-        <p>
-            in case of abuse or bad routes, please reach out to the noc, which can be found in the <a href="//rir.link/n/nw" target="_blank">ripe whois</a> and on <a href="//rir.link/p/nw" target="_blank">peeringdb</a>
-        </p>
-        <p>
-            to say hi, talk about transit or peering, or request resources, we have a <a href="//rir.link/dc/nw" target="_blank">discord server</a>
-        </p>
-    </section>
+    <p>
+      in case of abuse or bad routes, please reach out to the noc,
+      which can be found in the <a href="//ripen.cc/uhoh" target="_blank">RIPE whois</a>
+      and on <a href="//bpd.ripen.cc/peer" target="_blank">PeeringDB</a>
+    </p>
+    <p>
+      to say hi, talk about transit or peering, or request resources,
+      we have a <a href="//bpd.ripen.cc/discord" target="_blank">Discord server</a>
+    </p>
+  </section>
+  <section>
+    <h2 id="peering">peering</h2>
+    <p>
+      imported routes
+    </p>
+    <ul>
+      <li>filtered: RPKI invalid</li>
+      <li>filtered: default routes</li>
+      <li>filtered: private ASNs in path</li>
+      <li>recommended: RPKI valid, IRR valid</li>
+      <li>recommended: up-to-date PeeringDB entry</li>
+      <li>recommended: as-set</li>
+    </ul>
+    <p>
+      exported routes
+    </p>
+    <ul>
+      <li>signed: RPKI, IRR, ASPA</li>
+      <li>recommended: RFC 9234</li>
+      <li>
+        recommended: as-set and prefix limit from
+        <a href="//bpd.ripen.cc/peer" target="_blank">PeeringDB</a>
+      </li>
+    </ul>
+  </section>
+  <section>
+    <h2 id="communities">communities</h2>
+    <table>
+      <tr>
+        <th>200242:1:0</th>
+        <td>info</td>
+        <td>learned from self</td>
+      </tr>
+      <tr>
+        <th>200242:1:1</th>
+        <td>info</td>
+        <td>learned from downstream</td>
+      </tr>
+      <tr>
+        <th>200242:1:2</th>
+        <td>info</td>
+        <td>learned from upstream</td>
+      </tr>
+      <tr>
+        <th>200242:1:3</th>
+        <td>info</td>
+        <td>learned from peer</td>
+      </tr>
+     <tr>
+        <th>200242:1:4</th>
+        <td>info</td>
+        <td>learned from rs</td>
+      </tr>
+      <tr>
+        <th>200242:2:n</th>
+        <td>info</td>
+        <td>learned from as[n]</td>
+      </tr>
+      <tr>
+        <th>200242:100:x</th>
+        <td>action</td>
+        <td>set localpref to [x]</td>
+      </tr>
+      <tr>
+        <th>200242:666:0</th>
+        <td>action</td>
+        <td>no export</td>
+      </tr>
+      <tr>
+        <th>200242:666:n</th>
+        <td>action</td>
+        <td>no export to as[n]</td>
+      </tr>
+      <tr>
+        <th>200242:100x:0</th>
+        <td>action</td>
+        <td>prepend [x] times</td>
+      </tr>
+      <tr>
+        <th>200242:100x:n</th>
+        <td>action</td>
+        <td>prepend [x] times to as[n]</td>
+      </tr>
+    </table>
+  </section>
 </main>
+<footer>
+  <style>
+    /* reset */
+    html, body * {
+      font-family: monospace;
+      font-weight: normal;
+      font-size: 11pt;
+      line-height: 1.25;
+      text-underline-offset: .15rem;
+      margin-top: 0;
+      padding: 0;
+      list-style: none;
+    }
+    
+    /* center  */
+    body {
+      max-width: min(72ch, 100vw - 2ch);
+      margin: 4rem auto;
+    }
+
+    /* block spacing */
+    section, nav, hgroup:has(h1) {
+      margin-bottom: 2rem;
+    }
+
+    ul, h2 {
+      margin-bottom: 1rem;
+    }
+
+    p {
+      margin-bottom: .5rem;
+    }
+
+    hgroup * {
+      margin-bottom: 0;
+    }
+
+    /* nav links */
+    nav {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      column-gap: 2ch;
+    }
+
+    nav > :first-child {
+      text-align: left;	
+    }
+
+    nav > :last-child {
+      text-align: right;
+    }
+
+    /* main header  */
+    hgroup {
+      text-align: center;
+    }
+
+    h1 {
+      font-weight: bold;
+    }
+
+    hgroup p {
+      font-style: italic;
+    }
+
+    /* tables */
+    th {
+      text-align: left;
+    }
+
+    td {
+      padding-left: 2ch;
+    }
+
+    /* links */
+    a, a:visited {
+      color: inherit;
+      white-space: nowrap;
+      text-decoration: underline;
+    }
+
+    /* indents */
+    section > :not(h2) {
+      margin-left: 3ch;
+    }
+
+    /* ul list style */
+    ul li {
+      padding-left: 3ch;
+      position: relative;
+    }
+
+    ul li::before {
+      position: absolute;
+      left: 0;
+      content: "-";
+    }
+  </style>
+</footer>
 </body>
 </html>
 
