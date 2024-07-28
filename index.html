@@ -44,7 +44,7 @@
 <header>
   <nav>
     <a href="//ripen.cc/as200242:as-cone" target="_blank">as200242:as-cone</a>
-    <a href="//ripen.cc/2a07:54c0::/32" target="_blank">2a07:54c0::/32</a>
+    <a href="//ripen.cc/2a14:6f14::/29" target="_blank">2a14:6f40::/29</a>
   </nav>
 </header>
 <main>
@@ -56,7 +56,7 @@
     <h2 id="about">about</h2>
     <p>
       ipv6-only network for 
-      <a href="//ripen.cc/haz" target="_blank">personal</a>, non-profit use
+      <a href="//bpd.ripen.cc" target="_blank">personal</a>, non-profit use
     </p>
   </section>
   <section>
@@ -99,61 +99,186 @@
   <section>
     <h2 id="communities">communities</h2>
     <table>
-      <tr>
-        <th>200242:1:0</th>
-        <td>info</td>
-        <td>learned from self</td>
-      </tr>
-      <tr>
-        <th>200242:1:1</th>
-        <td>info</td>
-        <td>learned from downstream</td>
-      </tr>
-      <tr>
-        <th>200242:1:2</th>
-        <td>info</td>
-        <td>learned from upstream</td>
-      </tr>
-      <tr>
-        <th>200242:1:3</th>
-        <td>info</td>
-        <td>learned from peer</td>
-      </tr>
-     <tr>
-        <th>200242:1:4</th>
-        <td>info</td>
-        <td>learned from rs</td>
-      </tr>
-      <tr>
-        <th>200242:2:n</th>
-        <td>info</td>
-        <td>learned from as[n]</td>
-      </tr>
-      <tr>
-        <th>200242:100:x</th>
-        <td>action</td>
-        <td>set localpref to [x]</td>
-      </tr>
-      <tr>
-        <th>200242:666:0</th>
-        <td>action</td>
-        <td>no export</td>
-      </tr>
-      <tr>
-        <th>200242:666:n</th>
-        <td>action</td>
-        <td>no export to as[n]</td>
-      </tr>
-      <tr>
-        <th>200242:100x:0</th>
-        <td>action</td>
-        <td>prepend [x] times</td>
-      </tr>
-      <tr>
-        <th>200242:100x:n</th>
-        <td>action</td>
-        <td>prepend [x] times to as[n]</td>
-      </tr>
+      <tbody>
+        <tr>
+          <th>200242:100:70</th>
+          <td>source: transit</td>
+        </tr>
+        <tr>
+          <th>200242:100:90</th>
+          <td>source: rs</td>
+        </tr>
+        <tr>
+          <th>200242:100:110</th>
+          <td>source: peer</td>
+        </tr>
+        <tr>
+          <th>200242:100:130</th>
+          <td>source: downstream</td>
+        </tr>
+        <tr>
+          <th>200242:100:150</th>
+          <td>source: self</td>
+        </tr>
+      </tbody>
+      <tbody>
+        <tr>
+          <th>200242:110:49</th>
+          <td>geo: germany</td>
+        </tr>
+        <tr>
+          <th>200242:110:4930</th>
+          <td>geo: berlin</td>
+        </tr>
+        <tr>
+          <th>200242:110:4969</th>
+          <td>geo: frankfurt</td>
+        </tr>
+        <tr>
+          <th>200242:110:47</th>
+          <td>geo: norway</td>
+        </tr>
+        <tr>
+          <th>200242:110:4722</th>
+          <td>geo: oslo</td>
+        </tr>
+        <tr>
+          <th>200242:110:1</th>
+          <td>geo: north america</td>
+        </tr>
+        <tr>
+          <th>200242:110:1913</th>
+          <td>geo: kansas city, mo</td>
+        </tr>
+        <tr>
+          <th>200242:110:1732</th>
+          <td>geo: piscataway, nj</td>
+        </tr>
+        <tr>
+          <th>200242:110:1416</th>
+          <td>geo: toronto, ontario</td>
+        </tr>
+      </tbody>
+      <tbody>
+        <tr>
+          <th>200242:120:202409</th>
+          <td>ixp: locix fra</td>
+        </tr>
+        <tr>
+          <th>200242:120:47498</th>
+          <td>ixp: fogixp</td>
+        </tr>
+        <tr>
+          <th>200242:120:34307</th>
+          <td>ixp: nl-ix</td>
+        </tr>
+        <tr>
+          <th>200242:120:51818</th>
+          <td>ixp: gpc</td>
+        </tr>
+        <tr>
+          <th>200242:120:40542</th>
+          <td>ixp: kcix</td>
+        </tr>
+        <tr>
+          <th>200242:120:46389</th>
+          <td>ixp: stlix</td>
+        </tr>
+        <tr>
+          <th>200242:120:35920</th>
+          <td>ixp: houix</td>
+        </tr>
+        <tr>
+          <th>200242:120:57369</th>
+          <td>ixp: onix</td>
+        </tr>
+      </tbody>
+      <tbody>
+        <tr>
+          <th>200242:130:n</th>
+          <td>peer: as[n]</td>
+        </tr>
+      </tbody>
+      <tbody>
+        <tr>
+          <th>200242:200:x</th>
+          <td>localpref: [x]</td>
+        </tr>
+      </tbody>
+      <tbody>
+        <tr>
+          <th>200242:301:0</th>
+          <td>prepend: 1x</td>
+        </tr>
+        <tr>
+          <th>200242:301:n</th>
+          <td>prepend: 1x to as[n]</td>
+        </tr>
+        <tr>
+          <th>200242:302:0</th>
+          <td>prepend: 2x</td>
+        </tr>
+        <tr>
+          <th>200242:302:n</th>
+          <td>prepend: 2x to as[n]</td>
+        </tr>
+        <tr>
+          <th>200242:303:0</th>
+          <td>prepend: 3x</td>
+        </tr>
+        <tr>
+          <th>200242:303:n</th>
+          <td>prepend: 3x to as[n]</td>
+        </tr>
+      </tbody>
+      <tbody>
+        <tr>
+          <th>200242:600:70</th>
+          <td>only to: transit</td>
+        </tr>
+        <tr>
+          <th>200242:600:90</th>
+          <td>only to: rs</td>
+        </tr>
+        <tr>
+          <th>200242:600:110</th>
+          <td>only to: peer</td>
+        </tr>
+        <tr>
+          <th>200242:600:130</th>
+          <td>only to: downstream</td>
+        </tr>
+        <tr>
+          <th>200242:610:n</th>
+          <td>only to: as[n]</td>
+        </tr>
+      </tbody>
+      <tbody>
+        <tr>
+          <th>200242:620:70</th>
+          <td>no export: transit</td>
+        </tr>
+        <tr>
+          <th>200242:620:90</th>
+          <td>no export: rs</td>
+        </tr>
+        <tr>
+          <th>200242:620:110</th>
+          <td>no export: peer</td>
+        </tr>
+        <tr>
+          <th>200242:620:130</th>
+          <td>no export: downstream</td>
+        </tr>
+        <tr>
+          <th>200242:666:0</th>
+          <td>no export</td>
+        </tr>
+        <tr>
+          <th>200242:666:n</th>
+          <td>no export: [n]</td>
+        </tr>
+      </tbody>
     </table>
   </section>
 </main>
@@ -230,6 +355,12 @@
 
     td {
       padding-left: 2ch;
+    }
+
+    tbody::after {
+      content: "";
+      height: .25rem;
+      display: block;
     }
 
     /* links */
