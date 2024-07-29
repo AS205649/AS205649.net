@@ -49,38 +49,30 @@
     <section>
       <h2 id="contact">contact</h2>
       <p>
-        in case of abuse or bad routes, please reach out to the noc,
-        which can be found in the <a href="//ripen.cc/uhoh" target="_blank">RIPE whois</a>
-        and on <a href="//bpd.ripen.cc/peer" target="_blank">PeeringDB</a>
+        in case of abuse or bad routes, please reach out to 
+        <a href="//ripen.cc/uhoh" target="_blank">the noc</a>
       </p>
       <p>
-        to say hi, talk about transit or peering, or request resources,
-        we have a <a href="//bpd.ripen.cc/discord" target="_blank">Discord server</a>
+        to say hi, talk about peering, or request resources,
+        we have a <a href="//bpd.ripen.cc/discord" target="_blank">Discord community</a>
       </p>
     </section>
     <section>
       <h2 id="peering">peering</h2>
       <p>
-        imported routes
+
       </p>
       <ul>
-        <li>filtered: RPKI invalid</li>
-        <li>filtered: default routes</li>
-        <li>filtered: private ASNs in path</li>
-        <li>recommended: RPKI valid, IRR valid</li>
-        <li>recommended: up-to-date PeeringDB entry</li>
-        <li>recommended: as-set</li>
-      </ul>
-      <p>
-        exported routes
-      </p>
-      <ul>
-        <li>signed: RPKI, IRR, ASPA</li>
-        <li>recommended: RFC 9234</li>
+        <li>reject: RPKI invalid</li>
+        <li>reject: default routes</li>
+        <li>reject: private ASNs in path</li>
+        <li>should: publish valid RPKI/IRR</li>
         <li>
-          recommended: as-set and prefix limit from
+          should: exchange as-sets and prefix limits via
           <a href="//bpd.ripen.cc/peer" target="_blank">PeeringDB</a>
         </li>
+        <li>may: use RFC 9234 roles</li>
+        <li>may: verify ASPA, our routes are signed</li>
       </ul>
     </section>
     <section>
@@ -88,182 +80,208 @@
       <table>
         <tbody>
           <tr>
-            <th>200242:100:70</th>
-            <td>source: transit</td>
+            <th>200242, 100,</th>
+            <td>70</td>
+            <th>learned from</th>
+            <td>transit</td>
           </tr>
           <tr>
-            <th>200242:100:90</th>
-            <td>source: rs</td>
+            <td></td>
+            <td>90</td>
+            <td></td>
+            <td>route server</td>
           </tr>
           <tr>
-            <th>200242:100:110</th>
-            <td>source: peer</td>
+            <td></td>
+            <td>110</td>
+            <td></td>
+            <td>peer</td>
           </tr>
           <tr>
-            <th>200242:100:130</th>
-            <td>source: downstream</td>
+            <td></td>
+            <td>130</td>
+            <td></td>
+            <td>downstream</td>
           </tr>
           <tr>
-            <th>200242:100:150</th>
-            <td>source: self</td>
-          </tr>
-        </tbody>
-        <tbody>
-          <tr>
-            <th>200242:110:49</th>
-            <td>geo: germany</td>
+            <td></td>
+            <td>150</td>
+            <td></td>
+            <td>self</td>
           </tr>
           <tr>
-            <th>200242:110:4930</th>
-            <td>geo: berlin</td>
+            <th>110,</th>
+            <td>___</td>
+            <td></td>
+            <td>as___</td>
           </tr>
           <tr>
-            <th>200242:110:4969</th>
-            <td>geo: frankfurt</td>
+            <th>120,</th>
+            <td>49</td>
+            <th>in</th>
+            <td>germany</td>
           </tr>
           <tr>
-            <th>200242:110:47</th>
-            <td>geo: norway</td>
+            <td></td>
+            <td>4930</td>
+            <td></td>
+            <td>berlin</td>
           </tr>
           <tr>
-            <th>200242:110:4722</th>
-            <td>geo: oslo</td>
+            <td></td>
+            <td>4969</td>
+            <td></td>
+            <td>frankfurt</td>
           </tr>
           <tr>
-            <th>200242:110:1</th>
-            <td>geo: north america</td>
+            <td></td>
+            <td>47</td>
+            <td></td>
+            <td>norway</td>
           </tr>
           <tr>
-            <th>200242:110:1913</th>
-            <td>geo: kansas city, mo</td>
+            <td></td>
+            <td>4722</td>
+            <td></td>
+            <td>oslo</td>
           </tr>
           <tr>
-            <th>200242:110:1732</th>
-            <td>geo: piscataway, nj</td>
+            <td></td>
+            <td>1</td>
+            <td></td>
+            <td>north america</td>
           </tr>
           <tr>
-            <th>200242:110:1416</th>
-            <td>geo: toronto, ontario</td>
-          </tr>
-        </tbody>
-        <tbody>
-          <tr>
-            <th>200242:120:202409</th>
-            <td>ixp: locix fra</td>
+            <td></td>
+            <td>1913</td>
+            <td></td>
+            <td>kansas city</td>
           </tr>
           <tr>
-            <th>200242:120:47498</th>
-            <td>ixp: fogixp</td>
+            <td></td>
+            <td>1212</td>
+            <td></td>
+            <td>new york city</td>
           </tr>
           <tr>
-            <th>200242:120:34307</th>
-            <td>ixp: nl-ix</td>
+            <td></td>
+            <td>1416</td>
+            <td></td>
+            <td>toronto</td>
           </tr>
           <tr>
-            <th>200242:120:51818</th>
-            <td>ixp: gpc</td>
+            <th>130,</th>
+            <td>34307</td>
+            <th>via</th>
+            <td>nl-ix</td>
           </tr>
           <tr>
-            <th>200242:120:40542</th>
-            <td>ixp: kcix</td>
+            <td></td>
+            <td>35920</td>
+            <td></td>
+            <td>houix</td>
           </tr>
           <tr>
-            <th>200242:120:46389</th>
-            <td>ixp: stlix</td>
+            <td></td>
+            <td>40542</td>
+            <td></td>
+            <td>kcix</td>
           </tr>
           <tr>
-            <th>200242:120:35920</th>
-            <td>ixp: houix</td>
+            <td></td>
+            <td>46389</td>
+            <td></td>
+            <td>stlix</td>
           </tr>
           <tr>
-            <th>200242:120:57369</th>
-            <td>ixp: onix</td>
-          </tr>
-        </tbody>
-        <tbody>
-          <tr>
-            <th>200242:130:n</th>
-            <td>peer: as[n]</td>
-          </tr>
-        </tbody>
-        <tbody>
-          <tr>
-            <th>200242:200:x</th>
-            <td>localpref: [x]</td>
-          </tr>
-        </tbody>
-        <tbody>
-          <tr>
-            <th>200242:301:0</th>
-            <td>prepend: 1x</td>
+            <td></td>
+            <td>47498</td>
+            <td></td>
+            <td>fogixp</td>
           </tr>
           <tr>
-            <th>200242:301:n</th>
-            <td>prepend: 1x to as[n]</td>
+            <td></td>
+            <td>51818</td>
+            <td></td>
+            <td>gpc</td>
           </tr>
           <tr>
-            <th>200242:302:0</th>
-            <td>prepend: 2x</td>
+            <td></td>
+            <td>57369</td>
+            <td></td>
+            <td>onix</td>
           </tr>
           <tr>
-            <th>200242:302:n</th>
-            <td>prepend: 2x to as[n]</td>
-          </tr>
-          <tr>
-            <th>200242:303:0</th>
-            <td>prepend: 3x</td>
-          </tr>
-          <tr>
-            <th>200242:303:n</th>
-            <td>prepend: 3x to as[n]</td>
-          </tr>
-        </tbody>
-        <tbody>
-          <tr>
-            <th>200242:600:70</th>
-            <td>only to: transit</td>
-          </tr>
-          <tr>
-            <th>200242:600:90</th>
-            <td>only to: rs</td>
-          </tr>
-          <tr>
-            <th>200242:600:110</th>
-            <td>only to: peer</td>
-          </tr>
-          <tr>
-            <th>200242:600:130</th>
-            <td>only to: downstream</td>
-          </tr>
-          <tr>
-            <th>200242:610:n</th>
-            <td>only to: as[n]</td>
+            <td></td>
+            <td>202409</td>
+            <td></td>
+            <td>locix fra</td>
           </tr>
         </tbody>
         <tbody>
           <tr>
-            <th>200242:620:70</th>
-            <td>no export: transit</td>
+            <th>200242, 200,</th>
+            <td>___</td>
+            <th>localpref :=</th>
+            <td>___</td>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <th>200242, 301,</th>
+            <td>0</td>
+            <th>prepend 1x</th>
+            <td></td>
           </tr>
           <tr>
-            <th>200242:620:90</th>
-            <td>no export: rs</td>
+            <th>302,</th>
+            <td>0</td>
+            <th>2x</th>
+            <td></td>
           </tr>
           <tr>
-            <th>200242:620:110</th>
-            <td>no export: peer</td>
+            <th>303,</th>
+            <td>0</td>
+            <th>3x</th>
+            <td></td>
           </tr>
           <tr>
-            <th>200242:620:130</th>
-            <td>no export: downstream</td>
+            <td></td>
+            <td>___</td>
+            <th>to</th>
+            <td>as___</td>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <th>200242, 600,</th>
+            <td>70</td>
+            <th>not to</th>
+            <td>transit</td>
           </tr>
           <tr>
-            <th>200242:666:0</th>
-            <td>no export</td>
+            <td></td>
+            <td>90</td>
+            <td></td>
+            <td>route servers</td>
           </tr>
           <tr>
-            <th>200242:666:n</th>
-            <td>no export: as[n]</td>
+            <td></td>
+            <td>110</td>
+            <td></td>
+            <td>peers</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>130</td>
+            <td></td>
+            <td>downstreams</td>
+          </tr>
+          <tr>
+            <th>666,</th>
+            <td>___</td>
+            <td></td>
+            <td>as___</td>
           </tr>
         </tbody>
       </table>
@@ -341,16 +359,21 @@
 
       /* tables */
       th {
-        text-align: left;
+        padding-right: 1ch;
+        text-align: right;
+      }
+
+      tr:not(:first-child):has(th) > * {
+        border-top: solid .25rem transparent;
       }
 
       td {
-        padding-left: 2ch;
+        padding-right: 2ch;
       }
 
       tbody::after {
         content: "";
-        height: .25rem;
+        height: 1rem;
         display: block;
       }
 
