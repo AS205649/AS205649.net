@@ -7,7 +7,7 @@
 2a14:6f42:4930::/48,DE,DE-BE,Berlin,13187
 2a14:6f42:4969::/48,DE,DE-HE,Frankfurt,
 
-2a14:6f44:cafe::/48,GB,GB-TWH,London,E14 3SJ
+2a14:6f44:cafe::/48,DE,DE-HE,Frankfurt,
 
 2a07:54c0:1429::/48,CA,CA-ON,Toronto,
 2a07:54c0:1491::/48,US,US-MO,Kansas City,
@@ -16,4 +16,4 @@
 2a07:54c0:24a1::/48,DE,DE-BE,Berlin,13187
 2a07:54c0:24c1::/48,DE,DE-HE,Frankfurt,
 
-2a07:54c0:cafe::/48,GB,GB-TWH,London,E14 3SJ
+2a07:54c0:cafe::/48,DE,DE-HE,Frankfurt,
