@@ -1,13 +1,14 @@
 # prefix,country_code,region_code,city,postal
 
 # cdn
-2a14:6f42:1416::/48,CA,CA-ON,Toronto,
-2a14:6f42:1913::/48,US,US-MO,Kansas City,
-2a14:6f42:1212::/48,US,US-NJ,Piscataway,
-2a14:6f42:4722::/48,NO,NO-03,Oslo,
+2a14:6f42:1416::/48,CA,CA-ON,Toronto,M5A0G7 
+2a14:6f42:1848::/48,US,US-NJ,Piscataway,08854
+2a14:6f42:1913::/48,US,US-MO,Kansas City,64116
+2a14:6f42:1929::/48,US,US-NY,New York City,11232
+2a14:6f42:4722::/48,NO,NO-30,Lorenskog,1476
 2a14:6f42:4930::/48,DE,DE-BE,Berlin,13187
-2a14:6f42:4969::/48,DE,DE-HE,Frankfurt,
+2a14:6f42:4969::/48,DE,DE-HE,Frankfurt,60489
 
 # cust
-2a14:6f44:cafe::/48,DE,DE-HE,Frankfurt,
+2a14:6f44:cafe::/48,DE,DE-HE,Frankfurt,60489
 
