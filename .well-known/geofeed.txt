@@ -11,5 +11,4 @@
 2a14:6f42:4969::/48,DE,DE-HE,Frankfurt,60489
 
 # cust
-2a14:6f44:cafe::/48,DE,DE-HE,Frankfurt,60489
-
+2a14:6f44:cafe::/48,GB,GB-TWH,London,E143SJ
