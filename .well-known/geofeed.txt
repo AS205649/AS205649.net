@@ -1,6 +1,6 @@
 # prefix,country_code,region_code,city
 
-# cdn
+# geo
 2a14:6f42:1416::/48,CA,CA-ON,Toronto
 2a14:6f42:1848::/48,US,US-NJ,Piscataway
 2a14:6f42:1913::/48,US,US-MO,Kansas City
@@ -11,6 +11,9 @@
 2a14:6f42:4722::/48,NO,NO-30,Lorenskog
 2a14:6f42:4930::/48,DE,DE-BE,Berlin
 2a14:6f42:4969::/48,DE,DE-HE,Frankfurt
+
+# aviary
+2a14:6f40::/32,DE,DE-BE,Berlin
 
 # cust
 2a14:6f44:cafe::/48,GB,GB-TWH,London
