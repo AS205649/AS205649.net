@@ -64,15 +64,16 @@
       </p>
       <ul>
         <li>reject: RPKI invalid</li>
+        <li>reject: ASPA invalid</li>
         <li>reject: default routes</li>
         <li>reject: private ASNs in path</li>
-        <li>should: publish valid RPKI/IRR</li>
+        <li>should: publish RPKI/ASPA/IRR</li>
         <li>
           should: exchange as-sets and prefix limits via
           <a href="//theirs.ripen.cc/peer" target="_blank">PeeringDB</a>
         </li>
-        <li>may: use RFC 9234 roles</li>
-        <li>may: verify ASPA, our routes are signed</li>
+        <li>should: verify RPKI/ASPA/IRR, we only originate valid</li>
+        <li>should: use RFC 9234 roles</li>
       </ul>
     </section>
     <section>
