@@ -11,6 +11,7 @@
 2a14:6f42:4722::/48,NO,NO-30,Lorenskog
 2a14:6f42:4930::/48,DE,DE-BE,Berlin
 2a14:6f42:4969::/48,DE,DE-HE,Frankfurt
+2a14:6f42:6127::/48,AU,AU-NSW,Sydney
 
 # aviary
 2a14:6f40::/32,DE,DE-BE,Berlin
