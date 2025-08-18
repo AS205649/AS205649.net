@@ -15,6 +15,7 @@
 
 # aviary
 2a14:6f40::/32,DE,DE-BE,Berlin
+199.16.241.0/24,DE,DE-BE,Berlin
 
 # cust
 2a14:6f44:cafe::/48,GB,GB-TWH,London
