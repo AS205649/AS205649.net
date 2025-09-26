@@ -1,441 +1,190 @@
 <!DOCTYPE html>
 <html lang="en" prefix="og: https://ogp.me/ns#">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="icon" href="data:,">
+		<meta name="theme-color" content="#cba6f7">
+		<title>AS205649</title>
+		<meta name="description" content="IPv6-Primary Network // non-profit, open-source">
+		<meta property="og:site_name" content="AS205649">
+		<style>
+        html {
+            color-scheme: light dark;
+        }
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        @media (prefers-color-scheme: dark) {
+            html {
+                background-color: #111213;
+            }
+        }
+    
+		</style>
+	</head>
+	<body>
+		<header>
+			<nav>
+				<a href="//ripen.cc/AS205649" target="_blank">AS205649</a>
+				<a href="//ripen.cc/2a0f:85c1:ce3::/48" target="_blank">2a0f:85c1:ce3::/48</a>
+			</nav>
+		</header>
+		<main>
+			<hgroup>
+				<h1>AS205649</h1>
+				<p>AS205649 - core</p>
+			</hgroup>
+			<section>
+				<h2 id="about">about</h2>
+				<p>
+				</p>
+			</section>
+			<section>
+				<h2 id="contact">contact</h2>
+				<p>
+				</p>
+				<p>
+				</p>
+			</section>
+			<section>
+				<h2 id="peering">peering</h2>
+				<p>
+				</p>
+				<ul>
+					<li>reject: RPKI invalid</li>
+					<li>reject: default routes</li>
+					<li>reject: private ASNs in path</li>
+					<li>should: publish RPKI/IRR</li>
+					<li>
+						should: exchange as-sets and prefix limits via
+						<a href="//www.peeringdb.com/net/40091" target="_blank">PeeringDB</a>
+					</li>
+					<li>should: verify RPKI/IRR</li>
+					<li>should: use RFC 9234 roles</li>
+				</ul>
+			</section>
+		</main>
+		<footer>
+			<style>
+            /* reset */
+            html,
+            body * {
+                font-family: monospace;
+                font-weight: normal;
+                font-size: 11pt;
+                line-height: 1.25;
+                text-underline-offset: .15rem;
+                margin-top: 0;
+                padding: 0;
+                list-style: none;
+            }
 
-  <link rel="icon" href="data:,">
-  <meta name="theme-color" content="#cba6f7">
+            /* center  */
+            body {
+                max-width: min(90vw, 72ch);
+                margin: 5vw auto;
+            }
 
-  <title>as200242</title>
-  <meta name="description" content="ipv6-primary transit network and cdn // non-profit, open-source">
+            /* block spacing */
+            section,
+            nav,
+            hgroup:has(h1) {
+                margin-bottom: 2rem;
+            }
 
-  <meta property="og:site_name" content="de.theirs">
+            ul,
+            h2 {
+                margin-bottom: 1rem;
+            }
 
-  <style>
-    html {
-      color-scheme: light dark;
-    }
+            p {
+                margin-bottom: .5rem;
+            }
 
-    @media (prefers-color-scheme: dark) {
-      html {
-        background-color: #111213;
-      }
-    }
-  </style>
-</head>
+            hgroup * {
+                margin-bottom: 0;
+            }
 
-<body>
-  <header>
-    <nav>
-      <a href="//ripen.cc/de.theirs" target="_blank">de.theirs</a>
-      <a href="//ripen.cc/2a14:6f40::/29" target="_blank">2a14:6f40::/29</a>
-    </nav>
-  </header>
-  <main>
-    <hgroup>
-      <h1>as200242</h1>
-      <p>de.theirs - core</p>
-    </hgroup>
-    <section>
-      <h2 id="about">about</h2>
-      <p>
-        ipv6-primary transit network and cdn //
-        <a href="//de.thei.rs/transparency" target="_blank">non-profit</a>,
-        <a href="//de.thei.rs/code" target="_blank">open-source</a>
-      </p>
-    </section>
-    <section>
-      <h2 id="contact">contact</h2>
-      <p>
-        in case of abuse or bad routes, please reach out to
-        <a href="//de.thei.rs/noc" target="_blank">the noc</a>
-      </p>
-      <p>
-        to say hi, talk about peering, or request resources,
-        we have a <a href="//de.thei.rs/discord" target="_blank">Discord community</a>
-      </p>
-    </section>
-    <section>
-      <h2 id="peering">peering</h2>
-      <p>
+            /* nav links */
+            nav {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                column-gap: 2ch;
+            }
 
-      </p>
-      <ul>
-        <li>reject: RPKI invalid</li>
-        <li>reject: ASPA invalid</li>
-        <li>reject: default routes</li>
-        <li>reject: private ASNs in path</li>
-        <li>should: publish RPKI/ASPA/IRR</li>
-        <li>
-          should: exchange as-sets and prefix limits via
-          <a href="//de.thei.rs/pdb" target="_blank">PeeringDB</a>
-        </li>
-        <li>should: verify RPKI/ASPA/IRR, we only originate valid</li>
-        <li>should: use RFC 9234 roles</li>
-      </ul>
-    </section>
-    <section>
-      <h2 id="communities">communities</h2>
-      <div>
-        <table>
-          <tbody>
-            <tr>
-              <th>200242, 100,</th>
-              <td>70</td>
-              <th>learned from</th>
-              <td>transit</td>
-            </tr>
-            <tr>
-              <td></td>
-              <td>90</td>
-              <td></td>
-              <td>route server</td>
-            </tr>
-            <tr>
-              <td></td>
-              <td>110</td>
-              <td></td>
-              <td>peer</td>
-            </tr>
-            <tr>
-              <td></td>
-              <td>130</td>
-              <td></td>
-              <td>downstream</td>
-            </tr>
-            <tr>
-              <td></td>
-              <td>149</td>
-              <td></td>
-              <td>self (k8s)</td>
-            </tr>
-            <tr>
-              <td></td>
-              <td>150</td>
-              <td></td>
-              <td>self</td>
-            </tr>
-            <tr>
-              <th>110,</th>
-              <td>___</td>
-              <td></td>
-              <td>as___</td>
-            </tr>
-            <tr>
-              <th>120,</th>
-              <td>4930</td>
-              <th>in</th>
-              <td>ber-c1</td>
-            </tr>
-            <tr>
-              <td></td>
-              <td>4969</td>
-              <td></td>
-              <td>fra-e1</td>
-            </tr>
-            <tr>
-              <td></td>
-              <td>4420</td>
-              <td></td>
-              <td>lon-e1</td>
-            </tr>
-            <tr>
-              <td></td>
-              <td>4421</td>
-              <td></td>
-              <td>lon-e2</td>
-            </tr>
-            <tr>
-              <td></td>
-              <td>4680</td>
-              <td></td>
-              <td>sto-e1</td>
-            </tr>
-            <tr>
-              <td></td>
-              <td>4722</td>
-              <td></td>
-              <td>osl-e1</td>
-            </tr>
-            <tr>
-              <td></td>
-              <td>1929</td>
-              <td></td>
-              <td>nyc-e1</td>
-            </tr>
-            <tr>
-              <td></td>
-              <td>1848</td>
-              <td></td>
-              <td>nyc-e2</td>
-            </tr>
-            <tr>
-              <td></td>
-              <td>1416</td>
-              <td></td>
-              <td>yto-e1</td>
-            </tr>
-            <tr>
-              <td></td>
-              <td>1913</td>
-              <td></td>
-              <td>mci-e1</td>
-            </tr>
-            <tr>
-              <td></td>
-              <td>6127</td>
-              <td></td>
-              <td>syd-e1</td>
-            </tr>
-            <tr>
-              <th>130,</th>
-              <td>34307</td>
-              <th>via</th>
-              <td>nl-ix</td>
-            </tr>
-            <tr>
-              <td></td>
-              <td>35920</td>
-              <td></td>
-              <td>houix</td>
-            </tr>
-            <tr>
-              <td></td>
-              <td>36090</td>
-              <td></td>
-              <td>f4ix</td>
-            </tr>
-            <tr>
-              <td></td>
-              <td>40542</td>
-              <td></td>
-              <td>kcix</td>
-            </tr>
-            <tr>
-              <td></td>
-              <td>46389</td>
-              <td></td>
-              <td>stlix</td>
-            </tr>
-            <tr>
-              <td></td>
-              <td>47498</td>
-              <td></td>
-              <td>fogixp</td>
-            </tr>
-            <tr>
-              <td></td>
-              <td>51818</td>
-              <td></td>
-              <td>gpc</td>
-            </tr>
-            <tr>
-              <td></td>
-              <td>57369</td>
-              <td></td>
-              <td>onix</td>
-            </tr>
-            <tr>
-              <td></td>
-              <td>202409</td>
-              <td></td>
-              <td>locix fra</td>
-            </tr>
-          </tbody>
-          <tbody>
-            <tr>
-              <th>200242, 200,</th>
-              <td>___</td>
-              <th>localpref :=</th>
-              <td>___</td>
-            </tr>
-          </tbody>
-          <tbody>
-            <tr>
-              <th>200242, 301,</th>
-              <td>0</td>
-              <th>prepend</th>
-              <td>1x</td>
-            </tr>
-            <tr>
-              <th>302,</th>
-              <td>0</td>
-              <td></td>
-              <td>2x</td>
-            </tr>
-            <tr>
-              <th>303,</th>
-              <td>0</td>
-              <td></td>
-              <td>3x</td>
-            </tr>
-            <tr>
-              <td></td>
-              <td>___</td>
-              <th>to</th>
-              <td>as___</td>
-            </tr>
-          </tbody>
-          <tbody>
-            <tr>
-              <th>200242, 600,</th>
-              <td>70</td>
-              <th>not to</th>
-              <td>transit</td>
-            </tr>
-            <tr>
-              <td></td>
-              <td>90</td>
-              <td></td>
-              <td>route servers</td>
-            </tr>
-            <tr>
-              <td></td>
-              <td>110</td>
-              <td></td>
-              <td>peers</td>
-            </tr>
-            <tr>
-              <td></td>
-              <td>130</td>
-              <td></td>
-              <td>downstreams</td>
-            </tr>
-            <tr>
-              <th>666,</th>
-              <td>___</td>
-              <td></td>
-              <td>as___</td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-    </section>
-  </main>
-  <footer>
-    <style>
-      /* reset */
-      html,
-      body * {
-        font-family: monospace;
-        font-weight: normal;
-        font-size: 11pt;
-        line-height: 1.25;
-        text-underline-offset: .15rem;
-        margin-top: 0;
-        padding: 0;
-        list-style: none;
-      }
+            nav> :first-child {
+                text-align: left;
+            }
 
-      /* center  */
-      body {
-        max-width: min(90vw, 72ch);
-        margin: 5vw auto;
-      }
+            nav> :last-child {
+                text-align: right;
+            }
 
-      /* block spacing */
-      section,
-      nav,
-      hgroup:has(h1) {
-        margin-bottom: 2rem;
-      }
+            /* main header  */
+            hgroup {
+                text-align: center;
+            }
 
-      ul,
-      h2 {
-        margin-bottom: 1rem;
-      }
+            h1 {
+                font-weight: bold;
+            }
 
-      p {
-        margin-bottom: .5rem;
-      }
+            hgroup p {
+                font-style: italic;
+            }
 
-      hgroup * {
-        margin-bottom: 0;
-      }
+            /* tables */
+            div:has(> table) {
+                overflow-x: scroll;
+            }
 
-      /* nav links */
-      nav {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        column-gap: 2ch;
-      }
+            th {
+                padding-right: 1ch;
+                text-align: right;
+                white-space: nowrap;
+            }
 
-      nav> :first-child {
-        text-align: left;
-      }
+            tr:not(:first-child):has(th)>* {
+                border-top: solid .25rem transparent;
+            }
 
-      nav> :last-child {
-        text-align: right;
-      }
+            td {
+                padding-right: max(2ch, 2vw);
+            }
 
-      /* main header  */
-      hgroup {
-        text-align: center;
-      }
+            tbody::after {
+                content: "";
+                height: 1.5rem;
+                display: block;
+            }
 
-      h1 {
-        font-weight: bold;
-      }
+            /* links */
+            a,
+            a:visited {
+                color: inherit;
+                white-space: nowrap;
+                text-decoration: underline;
+            }
 
-      hgroup p {
-        font-style: italic;
-      }
+            /* indents */
+            section> :not(h2) {
+                margin-left: 3ch;
+            }
 
-      /* tables */
-      div:has(> table) {
-        overflow-x: scroll;
-      }
+            /* ul list style */
+            ul li {
+                padding-left: 3ch;
+                position: relative;
+            }
 
-      th {
-        padding-right: 1ch;
-        text-align: right;
-        white-space: nowrap;
-      }
-
-      tr:not(:first-child):has(th)>* {
-        border-top: solid .25rem transparent;
-      }
-
-      td {
-        padding-right: max(2ch,2vw);
-      }
-
-      tbody::after {
-        content: "";
-        height: 1.5rem;
-        display: block;
-      }
-
-      /* links */
-      a,
-      a:visited {
-        color: inherit;
-        white-space: nowrap;
-        text-decoration: underline;
-      }
-
-      /* indents */
-      section> :not(h2) {
-        margin-left: 3ch;
-      }
-
-      /* ul list style */
-      ul li {
-        padding-left: 3ch;
-        position: relative;
-      }
-
-      ul li::before {
-        position: absolute;
-        left: 0;
-        content: "-";
-      }
-    </style>
-  </footer>
-</body>
-
+            ul li::before {
+                position: absolute;
+                left: 0;
+                content: "-";
+            }
+        
+			</style>
+		</footer>
+	</body>
 </html>
